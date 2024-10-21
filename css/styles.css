@@ -1,0 +1,53 @@
+
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --fuente-primario:0.85rem;
+}
+html{
+    font-size: 62.5px ;
+}
+body
+{
+    font-size: 16px;
+}
+.titulo 
+{
+    text-align: center;
+    font-size: var(--fuente-primario);
+    color: var(--primario);
+    font-family: "Krub", sans-serif;
+}
+.titulo span{
+    font-size: 0.25rem;
+    color: darkblue;
+}
+.navegacion-principal{
+    
+    background-color: var(--secundario);
+}
+.contenedor{
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal a{
+    background-color: var(--secundario);
+    
+}
+.nav-bg{
+    background-color: var(--secundario);
+    padding: 0.18rem;
+    
+}
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+
+
+    
